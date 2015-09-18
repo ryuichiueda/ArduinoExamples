@@ -1,12 +1,12 @@
-const int pin_led = 9;
+const int pin_motor = 9;
 
 void setup() {
-  pinMode(pin_led, OUTPUT);
+  pinMode(pin_motor, OUTPUT);
 }
 
 void loop() {
-  analogWrite(pin_led,255);
-  delay(2000);
-  analogWrite(pin_led,0);
+  analogWrite(pin_motor,150);
+  delay(1000);
+  analogWrite(pin_motor,0);
   delay(2000);
 }
